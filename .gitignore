@@ -1,0 +1,55 @@
+# Node.js
+node_modules/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+backend/python/segmentation_model.keras
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+.venv/
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Python-generated mask files (optional)
+backend/python/*_mask.png
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Uploads and generated temp files
+uploads/
+*.tmp
+*.bak
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.production
+frontend/.env.development
+
+# Cloudinary uploads (you don’t upload remote files, only URLs)
+*.cloudinary
+
+# Build outputs
+build/
+dist/
+coverage/
